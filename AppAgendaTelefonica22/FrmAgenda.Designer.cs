@@ -47,6 +47,7 @@
             this.btnAgregar.TabIndex = 0;
             this.btnAgregar.Text = "Agregar contacto...";
             this.btnAgregar.UseVisualStyleBackColor = true;
+            this.btnAgregar.Click += new System.EventHandler(this.btnAgregar_Click);
             // 
             // btnSalir
             // 
@@ -57,6 +58,7 @@
             this.btnSalir.TabIndex = 1;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // dtgAgenda
             // 
